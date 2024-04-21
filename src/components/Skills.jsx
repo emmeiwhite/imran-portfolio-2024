@@ -8,11 +8,7 @@ function Skills() {
       className="align-element py-20"
       id="skills"
     >
-      <SectionTitle>
-        <h2 className="text-3xl font-medium tracking-wider capitalize">
-          Tech Stack
-        </h2>
-      </SectionTitle>
+      <SectionTitle text="tech stack" />
 
       <SkillsList />
     </section>

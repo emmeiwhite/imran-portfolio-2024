@@ -1,0 +1,38 @@
+import { FaGithubSquare } from "react-icons/fa";
+import { TbWorldWww } from "react-icons/tb";
+
+export default function ProjectCard({ img, url, github, title, text }) {
+  return (
+    <article className="bg-white rounded-lg shadow-md hover:shadow-lg">
+      <img
+        src={img}
+        alt={title}
+        className="w-full object-cover rounded-t-lg max-h-64"
+      />
+
+      <div className="p-8 capitalize">
+        <h2 className="text-xl tracking-wide font-medium">{title}</h2>
+        <p className="mt-4 text-slate-700 leading-loose">{text}</p>
+
+        <div className="flex gap-4 mt-4">
+          <a href={url}>
+            <TbWorldWww className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+          </a>
+
+          <a href={url}>
+            <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+          </a>
+        </div>
+      </div>
+    </article>
+  );
+}
+
+//   {
+//     id: nanoid(),
+//     img: "https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800",
+//     url: "https://react-projects.netlify.app/",
+//     github: "https://github.com/john-smilga",
+//     title: "first project",
+//     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+//   },

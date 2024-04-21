@@ -1,6 +1,13 @@
 import contactSVG from "../assets/contact.svg";
 import SectionTitle from "./SectionTitle";
 
+import {
+  FaWhatsapp,
+  FaEnvelope,
+  FaMapMarkerAlt,
+  FaPhone,
+} from "react-icons/fa";
+
 export default function Contact() {
   return (
     <section
@@ -11,20 +18,47 @@ export default function Contact() {
         <img
           src={contactSVG}
           alt="connect with me"
-          className="w-full h-64 order-1 md:order-2"
+          className="w-full h-64 "
         />
-        <article className="order-2 md:order-1">
+        <article>
           <SectionTitle text="Get in Touch" />
 
           <p className="mt-4 text-slate-500">
-            An adept Front End Web Developer with over 6 years of experience,
-            specializing in ReactJS and JavaScript programming. Dedicated to
-            creating dynamic user interfaces through innovative JavaScript and
-            CSS3 techniques.
+            <span className="flex gap-4 items-center">
+              <FaMapMarkerAlt className="h-6 w-6 text-slate-500 hover:text-black duration-300" />
+              <span>Address: Srinagar J&K, India</span>
+            </span>
           </p>
           <p className="mt-4 text-slate-500">
-            Eager to leverage skills and experience in a collaborative team
-            environment. Open to exciting full-time opportunities
+            <a
+              href="mailto:ratherimran99@gmail.com"
+              target="_blank"
+              className="flex gap-4 items-center"
+            >
+              <FaEnvelope className="h-6 w-6 text-slate-500 hover:text-black duration-300" />
+              <span>Email: ratherimran99@gmail.com</span>
+            </a>
+          </p>
+
+          <p className="mt-4 text-slate-500">
+            <a
+              href="tel:+919538427852"
+              target="_blank"
+              className="flex gap-4 items-center"
+            >
+              <FaPhone className="h-6 w-6 text-slate-500 hover:text-black duration-300" />
+              <span>Phone: +91 9538427852</span>
+            </a>
+          </p>
+          <p className="mt-4 text-slate-500">
+            <a
+              href="https://api.whatsapp.com/send?phone=917006312148"
+              target="_blank"
+              className="flex gap-4 items-center"
+            >
+              <FaWhatsapp className="h-6 w-6 text-slate-500 hover:text-black duration-300" />
+              <span>WhatsApp:+91 7006312148</span>
+            </a>
           </p>
         </article>
       </div>

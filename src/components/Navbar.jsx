@@ -15,7 +15,7 @@ function Navbar() {
               <a
                 href={href}
                 key={id}
-                className="capitalize text-lg tracking-wide hover:text-emerald-600 duration-300"
+                className="capitalize sm:text-lg tracking-wide hover:text-emerald-600 duration-300"
               >
                 {text}
               </a>

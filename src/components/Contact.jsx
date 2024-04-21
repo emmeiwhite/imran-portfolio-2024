@@ -12,7 +12,7 @@ export default function Contact() {
   return (
     <section
       className="bg-white py-20 "
-      id="about"
+      id="contact"
     >
       <div className="align-element grid gap-16 md:grid-cols-2 items-center">
         <img

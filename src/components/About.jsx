@@ -14,7 +14,7 @@ export default function About() {
           className="w-full h-64"
         />
         <article>
-          <SectionTitle text="Code & Coffee" />
+          <SectionTitle text="My Story" />
 
           <p className="mt-4 text-slate-500">
             An adept Front End Web Developer with over 6 years of experience,

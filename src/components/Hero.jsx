@@ -6,7 +6,7 @@ function Hero() {
     <div className="bg-emerald-100 pb-24 md:py-24">
       <div className="align-element grid md:grid-cols-2 items-center gap-8">
         <article className="order-2 md:order-1">
-          <h1 className="text-7xl font-bold tracking-wider">
+          <h1 className="text-5xl sm:text-7xl font-bold tracking-wider">
             I&apos;m <span className="text-emerald-800">Imran</span>
           </h1>
 

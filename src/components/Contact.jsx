@@ -1,4 +1,4 @@
-import contactSVG from "../assets/contact.svg";
+import contactSVG from "../assets/proj-2.svg";
 import SectionTitle from "./SectionTitle";
 
 import {
@@ -23,40 +23,40 @@ export default function Contact() {
         <article>
           <SectionTitle text="Get in Touch" />
 
-          <p className="mt-4 text-slate-500">
+          <p className="mt-4 text-slate-600">
             <span className="flex gap-4 items-center">
-              <FaMapMarkerAlt className="h-6 w-6 text-slate-500 hover:text-black duration-300" />
+              <FaMapMarkerAlt className="h-6 w-6 text-slate-600 hover:text-black duration-300" />
               <span>Address: Srinagar J&K, India</span>
             </span>
           </p>
-          <p className="mt-4 text-slate-500">
+          <p className="mt-4 text-slate-600">
             <a
               href="mailto:ratherimran99@gmail.com"
               target="_blank"
               className="flex gap-4 items-center"
             >
-              <FaEnvelope className="h-6 w-6 text-slate-500 hover:text-black duration-300" />
+              <FaEnvelope className="h-6 w-6 text-slate-600 hover:text-black duration-300" />
               <span>Email: ratherimran99@gmail.com</span>
             </a>
           </p>
 
-          <p className="mt-4 text-slate-500">
+          <p className="mt-4 text-slate-600">
             <a
               href="tel:+919538427852"
               target="_blank"
               className="flex gap-4 items-center"
             >
-              <FaPhone className="h-6 w-6 text-slate-500 hover:text-black duration-300" />
+              <FaPhone className="h-6 w-6 text-slate-600 hover:text-black duration-300" />
               <span>Phone: +91 9538427852</span>
             </a>
           </p>
-          <p className="mt-4 text-slate-500">
+          <p className="mt-4 text-slate-600">
             <a
               href="https://api.whatsapp.com/send?phone=917006312148"
               target="_blank"
               className="flex gap-4 items-center"
             >
-              <FaWhatsapp className="h-6 w-6 text-slate-500 hover:text-black duration-300" />
+              <FaWhatsapp className="h-6 w-6 text-slate-600 hover:text-black duration-300" />
               <span>WhatsApp:+91 7006312148</span>
             </a>
           </p>

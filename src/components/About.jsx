@@ -1,4 +1,4 @@
-import aboutSvg from "../assets/about-2.svg";
+import aboutSvg from "../assets/production.svg";
 import SectionTitle from "./SectionTitle";
 
 export default function About() {
@@ -16,15 +16,25 @@ export default function About() {
         <article>
           <SectionTitle text="My Story" />
 
-          <p className="mt-4 text-slate-500">
-            An adept Front End Web Developer with over 6 years of experience,
-            specializing in ReactJS and JavaScript programming. Dedicated to
-            creating dynamic user interfaces through innovative JavaScript and
-            CSS3 techniques.
+          <p className="mt-4 text-slate-600">
+            With 6+ years of expertise as a Front End Web Developer, I
+            specialize in
+            <span className="text-emerald-900 font-semibold">
+              {" "}
+              ReactJS and JavaScript programming
+            </span>
+            , crafting dynamic user interfaces with innovative techniques.
+            Proficient in{" "}
+            <span className="text-emerald-800 font-semibold">
+              Tailwind CSS, TypeScript, Redux-toolkit, and React Query
+            </span>
+            I excel in delivering high-quality solutions.
           </p>
-          <p className="mt-4 text-slate-500">
-            Eager to leverage skills and experience in a collaborative team
-            environment. Open to exciting full-time opportunities
+          <p className="mt-4 text-slate-600">
+            <span className="text-emerald-800 font-bold">
+              Seeking remote, full-time ReactJS opportunities,
+            </span>{" "}
+            Diligent and dedicated to delivering excellence in every project,
           </p>
         </article>
       </div>

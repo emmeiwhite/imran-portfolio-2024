@@ -1,29 +1,105 @@
 import { FaGithubSquare } from "react-icons/fa";
 import { TbWorldWww } from "react-icons/tb";
 
-export default function ProjectCard({ img, url, github, title, text }) {
+export default function ProjectCard({
+  img,
+  url,
+  github,
+  title,
+  text,
+  url2,
+  url3,
+  url4,
+  role,
+}) {
   return (
-    <article className="bg-white rounded-lg shadow-md hover:shadow-lg">
-      <img
-        src={img}
-        alt={title}
-        className="w-full object-cover rounded-t-lg max-h-64"
-      />
+    <article className="bg-white rounded-lg shadow-md hover:shadow-lg ]">
+      <a
+        href={url}
+        target="_blank"
+        className=" block"
+      >
+        <img
+          src={img}
+          alt={title}
+          className="w-full object-contain rounded-t-lg h-[160px] sm:max-h-64"
+        />
 
-      <div className="p-8 capitalize">
-        <h2 className="text-xl tracking-wide font-medium">{title}</h2>
-        <p className="mt-4 text-slate-700 leading-loose">{text}</p>
+        <div className="p-4">
+          <div className="py-3 border-b border-emerald-400">
+            <h2 className="text-base tracking-wide font-bold text-emerald-800">
+              {title}
+            </h2>
+            <h3 className="text-sm tracking-wide font-semibold mt-1 text-emerald-700">
+              {role}
+            </h3>
+          </div>
 
-        <div className="flex gap-4 mt-4">
-          <a href={url}>
-            <TbWorldWww className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
-          </a>
+          <p className="mt-2 text-slate-700 leading-loose font-inter text-sm">
+            {text}
+          </p>
 
-          <a href={url}>
-            <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
-          </a>
+          <div className="flex gap-4 mt-4 bg-emerald-50 p-3">
+            {url2 && (
+              <a
+                href={url2}
+                target="_blank"
+                title={url2}
+              >
+                <TbWorldWww className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+              </a>
+            )}
+
+            {url3 && (
+              <a
+                href={url3}
+                target="_blank"
+                title={url3}
+              >
+                <TbWorldWww className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+              </a>
+            )}
+
+            {url4 && (
+              <a
+                href={url4}
+                target="_blank"
+                title={url4}
+              >
+                <TbWorldWww className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+              </a>
+            )}
+
+            <a
+              href={github}
+              target="_blank"
+              title={github}
+            >
+              <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+            </a>
+          </div>
+
+          {/* <div className="grid gap-4 ">
+            <a
+              href={url}
+              target="_blank"
+              className="font-inter text-sm"
+            >
+              {url}
+            </a>
+
+            {url2 && (
+              <a
+                href={url2}
+                target="_blank"
+                className="font-inter text-sm"
+              >
+                {url2}
+              </a>
+            )}
+          </div> */}
         </div>
-      </div>
+      </a>
     </article>
   );
 }
@@ -36,3 +112,5 @@ export default function ProjectCard({ img, url, github, title, text }) {
 //     title: "first project",
 //     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
 //   },
+
+// grid grid-cols-[180px_minmax(200px,_1fr)

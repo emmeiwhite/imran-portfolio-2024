@@ -24,6 +24,8 @@ export default function About() {
               ReactJS and JavaScript programming
             </span>
             , crafting dynamic user interfaces with innovative techniques.
+          </p>
+          <p className="mt-4">
             Proficient in{" "}
             <span className="text-emerald-800 font-semibold">
               Tailwind CSS, TypeScript, Redux-toolkit, and React Query

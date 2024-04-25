@@ -20,19 +20,37 @@ export const skills = [
     id: nanoid(),
     title: "HTML5 & CSS3",
     icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
-    text: "Proficient in HTML5 & CSS3, I specialize in creating visually captivating and responsive websites that prioritize seamless user experiences.",
+    skillsInfo: [
+      "HTML5 and CSS3",
+      "Tailwind CSS",
+      "SCSS",
+      "CSS3 Animations",
+      "Bootstrap",
+    ],
   },
   {
     id: nanoid(),
     title: "JavaScript",
     icon: <FaJs className="h-16 w-16 text-emerald-500" />,
-    text: "JavaScript expertise fuels my creation of dynamic web applications, prioritizing intuitive user experiences and robust functionality.",
+    skillsInfo: [
+      "Modern JavaScript",
+      "JQuery",
+      "Axios",
+      "Functional Programming",
+      "Data Structures and Algorithms with JS",
+    ],
   },
   {
     id: nanoid(),
     title: "ReactJS",
     icon: <FaReact className="h-16 w-16 text-emerald-500" />,
-    text: "Mastery in React, adept at crafting high-performance and interactive front-end applications, leveraging the power of component-based architecture.",
+    skillsInfo: [
+      "ReactJS-18",
+      "Redux Toolkit",
+      "React Query",
+      "React-Router 6.4+",
+      "NextJS Beginner",
+    ],
   },
 ];
 

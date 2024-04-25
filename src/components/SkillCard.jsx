@@ -1,3 +1,4 @@
+import { FaAngleDoubleRight } from "react-icons/fa";
 export default function SkillCard({ icon, title, skillsInfo }) {
   return (
     <article>
@@ -7,7 +8,15 @@ export default function SkillCard({ icon, title, skillsInfo }) {
       </h4>
       <ul className="mt-2 text-slate-700 leading-loose">
         {skillsInfo.map((skill) => {
-          return <li key={skill}>⚡️ &nbsp;{skill}</li>;
+          return (
+            <li
+              key={skill}
+              className="flex gap-2 items-center"
+            >
+              <FaAngleDoubleRight className="text-emerald-500" /> &nbsp;
+              <p> {skill}</p>
+            </li>
+          );
         })}
       </ul>
     </article>

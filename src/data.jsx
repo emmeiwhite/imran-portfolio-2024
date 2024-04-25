@@ -26,6 +26,8 @@ export const skills = [
       "SCSS",
       "CSS3 Animations",
       "Bootstrap",
+      "GSAP Animations (Familiarity)",
+      "Mobile First Web Development",
     ],
   },
   {
@@ -34,10 +36,12 @@ export const skills = [
     icon: <FaJs className="h-16 w-16 text-emerald-500" />,
     skillsInfo: [
       "Modern JavaScript",
-      "JQuery",
+      "TypeScript Beginner",
       "Axios",
       "Functional Programming",
-      "Data Structures and Algorithms with JS",
+      "DS and Algo with JS (Learning)",
+      "Svelte JS (Familiarity)",
+      "Drupal Theming (Familiarity)",
     ],
   },
   {
@@ -49,7 +53,9 @@ export const skills = [
       "Redux Toolkit",
       "React Query",
       "React-Router 6.4+",
-      "NextJS Beginner",
+      "NextJS (Familiarity)",
+      "React Testing Library Jest Beginner",
+      "NodeJS, Express (Familiarity)",
     ],
   },
 ];

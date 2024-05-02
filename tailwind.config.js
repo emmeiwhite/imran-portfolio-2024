@@ -18,6 +18,8 @@ export default {
         inter: ["Inter", "sans-serif"],
         lato: ["lato", "sans-serif"],
         dosis: ["Dosis", "sans-serif"],
+        italianno: ["Italianno", "cursive"],
+        pacifico: ["Pacifico", "cursive"],
       },
       backgroundImage: {
         hero: "linear-gradient(rgba(53,82,66,0.5),rgba(47,80,63,0.6)), url('./../assets/bg.jpg')",

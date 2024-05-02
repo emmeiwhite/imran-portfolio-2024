@@ -1,4 +1,5 @@
-import { useState } from "react";
+import resume from "../assets/Imran_Resume_24.pdf";
+
 import heroImg from "../assets/hero-4.svg";
 import { FaGithubSquare, FaLinkedin, FaStackOverflow } from "react-icons/fa";
 
@@ -11,11 +12,11 @@ function Hero() {
             I&apos;m <span className="text-emerald-800">Imran</span>
           </h1>
 
-          <p className="mt-4 text-3xl text-slate-700 capitalize tracking-wide">
-            Front-End Developer
+          <p className="mt-4 text-3xl text-slate-900 capitalize tracking-wide">
+            Front-End JavaScript Developer
           </p>
 
-          <p className="mt-2 text-lg capitalize tracking-wide text-slate-700">
+          <p className="mt-2 text-lg capitalize tracking-wide text-slate-800">
             {/* turning ideas into interactive reality */}
             transforming ideas into Front-end Solutions
           </p>
@@ -25,21 +26,28 @@ function Hero() {
               href="https://github.com/emmeiwhite"
               target="_blank"
             >
-              <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+              <FaGithubSquare className="h-8 w-8 text-emerald-900 hover:text-black duration-300" />
             </a>
 
             <a
               href="https://www.linkedin.com/in/imran-rafiq-rather/"
               target="_blank"
             >
-              <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+              <FaLinkedin className="h-8 w-8 text-emerald-900 hover:text-black duration-300" />
             </a>
 
             <a
               href="https://stackoverflow.com/users/6938969/imran-rafiq-rather"
               target="_blank"
             >
-              <FaStackOverflow className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+              <FaStackOverflow className="h-8 w-8 text-emerald-900 hover:text-black duration-300" />
+            </a>
+            <a
+              href={resume}
+              target="_black"
+              className="text-xl pt-1 underline text-emerald-900 hover:text-black"
+            >
+              My Resume
             </a>
           </div>
         </article>

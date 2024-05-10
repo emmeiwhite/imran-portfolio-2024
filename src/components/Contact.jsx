@@ -1,12 +1,7 @@
-import contactSVG from "../assets/proj-2.svg";
-import SectionTitle from "./SectionTitle";
+import contactSVG from '../assets/proj-2.svg'
+import SectionTitle from './SectionTitle'
 
-import {
-  FaWhatsapp,
-  FaEnvelope,
-  FaMapMarkerAlt,
-  FaPhone,
-} from "react-icons/fa";
+import { FaWhatsapp, FaEnvelope, FaMapMarkerAlt, FaPhone } from 'react-icons/fa'
 
 export default function Contact() {
   return (
@@ -25,7 +20,7 @@ export default function Contact() {
 
           <p className="mt-4 text-slate-600">
             <span className="flex gap-4 items-center">
-              <FaMapMarkerAlt className="h-6 w-6 text-slate-600 hover:text-black duration-300" />
+              <FaMapMarkerAlt className="h-6 w-6 text-emerald-600 hover:text-black duration-300" />
               <span>Address: Srinagar J&K, India</span>
             </span>
           </p>
@@ -35,7 +30,7 @@ export default function Contact() {
               target="_blank"
               className="flex gap-4 items-center"
             >
-              <FaEnvelope className="h-6 w-6 text-slate-600 hover:text-black duration-300" />
+              <FaEnvelope className="h-6 w-6 text-emerald-600 hover:text-black duration-300" />
               <span>Email: ratherimran99@gmail.com</span>
             </a>
           </p>
@@ -46,7 +41,7 @@ export default function Contact() {
               target="_blank"
               className="flex gap-4 items-center"
             >
-              <FaPhone className="h-6 w-6 text-slate-600 hover:text-black duration-300" />
+              <FaPhone className="h-6 w-6 text-emerald-600 hover:text-black duration-300" />
               <span>Phone: +91 9538427852</span>
             </a>
           </p>
@@ -56,12 +51,12 @@ export default function Contact() {
               target="_blank"
               className="flex gap-4 items-center"
             >
-              <FaWhatsapp className="h-6 w-6 text-slate-600 hover:text-black duration-300" />
+              <FaWhatsapp className="h-6 w-6 text-emerald-600 hover:text-black duration-300" />
               <span>WhatsApp:+91 7006312148</span>
             </a>
           </p>
         </article>
       </div>
     </section>
-  );
+  )
 }

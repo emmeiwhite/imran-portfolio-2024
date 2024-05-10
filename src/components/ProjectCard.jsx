@@ -1,19 +1,9 @@
-import { FaGithubSquare } from "react-icons/fa";
-import { TbWorldWww } from "react-icons/tb";
+import { FaGithubSquare } from 'react-icons/fa'
+import { TbWorldWww } from 'react-icons/tb'
 
-export default function ProjectCard({
-  img,
-  url,
-  github,
-  title,
-  text,
-  url2,
-  url3,
-  url4,
-  role,
-}) {
+export default function ProjectCard({ img, url, github, title, text, url2, url3, url4, role }) {
   return (
-    <article className="bg-white rounded-lg shadow-md hover:shadow-lg ]">
+    <article className="bg-white rounded-lg shadow-lg hover:shadow-xl">
       <a
         href={url}
         target="_blank"
@@ -22,22 +12,16 @@ export default function ProjectCard({
         <img
           src={img}
           alt={title}
-          className="w-full object-contain rounded-t-lg h-[160px] sm:max-h-64"
+          className="w-full object-cover object-top rounded-t-lg h-[240px]"
         />
 
         <div className="p-4">
           <div className="py-3 border-b border-emerald-400">
-            <h2 className="text-base tracking-wide font-bold text-emerald-800">
-              {title}
-            </h2>
-            <h3 className="text-sm tracking-wide font-semibold mt-1 text-emerald-700">
-              {role}
-            </h3>
+            <h2 className="text-base tracking-wide font-bold text-emerald-800">{title}</h2>
+            <h3 className="text-sm tracking-wide font-semibold mt-1 text-emerald-700">{role}</h3>
           </div>
 
-          <p className="mt-2 text-slate-700 leading-loose font-inter text-sm">
-            {text}
-          </p>
+          <p className="mt-2 text-slate-700 leading-loose font-inter text-sm">{text}</p>
 
           <div className="flex gap-4 mt-4 bg-emerald-50 p-3">
             {url2 && (
@@ -101,7 +85,7 @@ export default function ProjectCard({
         </div>
       </a>
     </article>
-  );
+  )
 }
 
 //   {

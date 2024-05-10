@@ -53,7 +53,7 @@ export const skills = [
       'ReactJS-18+',
       'Redux Toolkit',
       'React Query',
-      'React-Router 6.11+',
+      'React-Router 6.4+',
       'NextJS',
       'React Testing Library Jest Beginner',
       'NodeJS, Express (Familiarity)'

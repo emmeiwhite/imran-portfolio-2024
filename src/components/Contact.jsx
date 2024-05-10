@@ -1,4 +1,4 @@
-import contactSVG from '../assets/proj-2.svg'
+import contactSVG from '../assets/proj-9.svg'
 import SectionTitle from './SectionTitle'
 
 import { FaWhatsapp, FaEnvelope, FaMapMarkerAlt, FaPhone } from 'react-icons/fa'

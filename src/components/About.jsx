@@ -1,4 +1,4 @@
-import aboutSvg from '../assets/production.svg'
+import aboutSvg from '../assets/proj-1.svg'
 import SectionTitle from './SectionTitle'
 
 export default function About() {

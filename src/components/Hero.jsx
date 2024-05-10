@@ -1,7 +1,7 @@
-import resume from "../assets/Imran_Resume_24.pdf";
+import resume from '../assets/Imran_Resume_24.pdf'
 
-import heroImg from "../assets/hero-4.svg";
-import { FaGithubSquare, FaLinkedin, FaStackOverflow } from "react-icons/fa";
+import heroImg from '../assets/hero-1.png'
+import { FaGithubSquare, FaLinkedin, FaStackOverflow } from 'react-icons/fa'
 
 function Hero() {
   return (
@@ -58,12 +58,12 @@ function Hero() {
           <img
             src={heroImg}
             alt="hero banner"
-            className="h-80 lg:h-96"
+            className="w-full object-contain object-center block mt-10 sm:mt-0"
           />
         </article>
       </div>
     </div>
-  );
+  )
 }
 
-export default Hero;
+export default Hero

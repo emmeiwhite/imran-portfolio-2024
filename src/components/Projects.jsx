@@ -8,7 +8,7 @@ export default function Projects() {
       className="py-20 align-element"
       id="projects"
     >
-      <SectionTitle text="Portfolio Projects" />
+      <SectionTitle text="Career Highlights" />
 
       <div className="py-16 project-list">
         {projects.map(project => (

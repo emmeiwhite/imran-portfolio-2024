@@ -13,12 +13,12 @@ function Hero() {
           </h1>
 
           <p className="mt-4 text-3xl text-slate-900 capitalize tracking-wide">
-            Front-End JavaScript Developer
+            JavaScript Programmer & ReactJS Developer
           </p>
 
           <p className="mt-2 text-lg capitalize tracking-wide text-slate-800">
-            {/* turning ideas into interactive reality */}
-            transforming ideas into Front-end Solutions
+            turning ideas into web solutions
+            {/* transforming ideas into Front-end Solutions */}
           </p>
 
           <div className="flex mt-4 gap-x-4">
@@ -42,12 +42,23 @@ function Hero() {
             >
               <FaStackOverflow className="h-8 w-8 text-emerald-900 hover:text-black duration-300" />
             </a>
+          </div>
+
+          <div>
+            <a
+              href="https://contentful-cms-react-18.netlify.app/"
+              target="_black"
+              className="mt-6 text-xl text-emerald-700 font-medium capitalize tracking-wide block hover:text-emerald-900 underline"
+            >
+              👨🏻‍💻 Solo Projects: ReactJS & JavaScript 🚀
+            </a>
+
             <a
               href={resume}
               target="_black"
-              className="text-xl pt-1 underline text-emerald-900 hover:text-black"
+              className="text-xl pt-1 mt-3 underline font-medium text-emerald-700 block hover:text-emerald-900"
             >
-              My Resume
+              📝 My Resume 🚀
             </a>
           </div>
         </article>

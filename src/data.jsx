@@ -65,8 +65,8 @@ export const projects = [
   {
     id: nanoid(),
     img: velocityKashmir,
-    url: 'https://cashmirtours.com/',
-    url2: 'https://cashmirtours.com/',
+    url: 'https://velocitykashmir.com/',
+    url2: 'https://velocitykashmir.com/',
     github: 'https://github.com/emmeiwhite/velocity-kashmir',
     role: 'Senior Software Engineer',
     title: 'Velocity Kashmir Tour & Travels  (04-2024 to Present)',

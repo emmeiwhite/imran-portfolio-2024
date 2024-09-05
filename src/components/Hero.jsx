@@ -1,4 +1,4 @@
-import resume from '../assets/Imran_Resume_24.pdf'
+import resume from '../assets/Imran_Rafiq_Rather_09_24.pdf'
 
 import heroImg from '../assets/hero-1.png'
 import { FaGithubSquare, FaLinkedin, FaStackOverflow } from 'react-icons/fa'

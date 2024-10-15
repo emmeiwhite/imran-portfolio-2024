@@ -1,6 +1,7 @@
-import resume from '../assets/Imran_Rafiq_Rather_09_24.pdf'
+import resume from '../assets/Imran_Resume.pdf'
 
 import heroImg from '../assets/hero-1.png'
+// import heroImg from '../assets/call-back-hell.jpeg'
 import { FaGithubSquare, FaLinkedin, FaStackOverflow } from 'react-icons/fa'
 
 function Hero() {

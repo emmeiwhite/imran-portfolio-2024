@@ -65,7 +65,7 @@ function Hero() {
           <img
             src={heroImg}
             alt="hero banner"
-            className="w-full h-[500px] object-contain object-center block mt-10 sm:mt-0 [clip-path:polygon(10%_10%,90%_0%,100%_40%,85%_90%,50%_100%,15%_85%,0%_50%,5%_20%)] shadow-lg"
+            className="w-full h-72 sm:h-[500px] object-contain object-center block mt-10 sm:mt-0 [clip-path:polygon(10%_10%,90%_0%,100%_40%,85%_90%,50%_100%,15%_85%,0%_50%,5%_20%)] shadow-lg"
           />
         </article>
       </div>

@@ -10,7 +10,7 @@ export default function About() {
         <img
           src={immiAboutImg}
           alt="about Imran - a FE Engineer"
-          className="w-full h-[400px] object-contain [clip-path:polygon(12%_8%,88%_0%,100%_30%,85%_85%,60%_100%,15%_95%,0%_65%,5%_20%)] shadow-lg "
+          className="w-full h-[320px] sm:h-[400px] object-contain [clip-path:polygon(12%_8%,88%_0%,100%_30%,85%_85%,60%_100%,15%_95%,0%_65%,5%_20%)] shadow-lg "
         />
         <article>
           <SectionTitle text="My Story" />

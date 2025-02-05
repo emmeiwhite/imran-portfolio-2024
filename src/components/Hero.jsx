@@ -1,6 +1,6 @@
 import resume from '../assets/Imran_Resume.pdf'
 
-import heroImg from '../assets/hero-1.png'
+import heroImg from '../assets/immi-sketch-1.jpeg'
 // import heroImg from '../assets/call-back-hell.jpeg'
 import { FaGithubSquare, FaLinkedin, FaStackOverflow } from 'react-icons/fa'
 
@@ -25,22 +25,19 @@ function Hero() {
           <div className="flex mt-4 gap-x-4">
             <a
               href="https://github.com/emmeiwhite"
-              target="_blank"
-            >
+              target="_blank">
               <FaGithubSquare className="h-8 w-8 text-emerald-900 hover:text-black duration-300" />
             </a>
 
             <a
               href="https://www.linkedin.com/in/imran-rafiq-rather/"
-              target="_blank"
-            >
+              target="_blank">
               <FaLinkedin className="h-8 w-8 text-emerald-900 hover:text-black duration-300" />
             </a>
 
             <a
               href="https://stackoverflow.com/users/6938969/imran-rafiq-rather"
-              target="_blank"
-            >
+              target="_blank">
               <FaStackOverflow className="h-8 w-8 text-emerald-900 hover:text-black duration-300" />
             </a>
           </div>
@@ -49,16 +46,14 @@ function Hero() {
             <a
               href="https://contentful-cms-react-18.netlify.app/"
               target="_black"
-              className="mt-6 text-xl text-emerald-700 font-medium capitalize tracking-wide block hover:text-emerald-900 underline"
-            >
+              className="mt-6 text-xl text-emerald-700 font-medium capitalize tracking-wide block hover:text-emerald-900 underline">
               👨🏻‍💻 Solo Projects: ReactJS & JavaScript 🚀
             </a>
 
             <a
               href={resume}
               target="_black"
-              className="text-xl pt-1 mt-3 underline font-medium text-emerald-700 block hover:text-emerald-900"
-            >
+              className="text-xl pt-1 mt-3 underline font-medium text-emerald-700 block hover:text-emerald-900">
               📝 My Resume 🚀
             </a>
           </div>
@@ -70,7 +65,7 @@ function Hero() {
           <img
             src={heroImg}
             alt="hero banner"
-            className="w-full object-contain object-center block mt-10 sm:mt-0"
+            className="w-full h-96 object-fill object-center block mt-10 sm:mt-0 [clip-path:polygon(20%_0%,85%_10%,100%_45%,80%_85%,50%_100%,10%_90%,0%_60%,8%_25%)] shadow-lg"
           />
         </article>
       </div>

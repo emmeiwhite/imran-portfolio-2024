@@ -12,7 +12,7 @@ export default function Contact() {
         <img
           src={contactImranSketch}
           alt="connect with me"
-          className="w-full h-[300px] sm:h-[350px] object-contain [clip-path:polygon(10%_10%,90%_0%,100%_40%,85%_90%,50%_100%,15%_85%,0%_50%,5%_20%)] shadow-lg"
+          className="w-full h-[320px] sm:h-[350px] object-contain [clip-path:polygon(10%_10%,90%_0%,100%_40%,85%_90%,50%_100%,15%_85%,0%_50%,5%_20%)] shadow-lg"
         />
         <article>
           <SectionTitle text="Get in Touch" />

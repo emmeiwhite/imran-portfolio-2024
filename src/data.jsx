@@ -37,7 +37,7 @@ export const skills = [
     icon: <FaJs className="h-16 w-16 text-emerald-500" />,
     skillsInfo: [
       'Modern JavaScript (ES6+)',
-      'TypeScript (Beginner)',
+      'TypeScript',
       'Axios',
       'Functional Programming',
       'DS and Algo with JS',
@@ -55,7 +55,7 @@ export const skills = [
       'React Query',
       'React-Router 6.4+',
       'NextJS',
-      'React Testing Library Jest Beginner',
+      'React Testing Library Jest (UpSkilling)',
       'NodeJS, Express (Familiarity)'
     ]
   }

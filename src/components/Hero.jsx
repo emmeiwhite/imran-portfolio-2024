@@ -6,7 +6,7 @@ import { FaGithubSquare, FaLinkedin, FaStackOverflow } from 'react-icons/fa'
 
 function Hero() {
   return (
-    <div className="bg-emerald-100 pb-24 md:py-24 font-dosis">
+    <div className="bg-gradient-to-tr from-emerald-50 to-emerald-400 pb-24 md:py-24 font-inter">
       <div className="align-element grid md:grid-cols-2 items-center gap-8">
         <article className="order-2 md:order-1">
           <h1 className="text-5xl sm:text-7xl font-bold tracking-wider">
@@ -47,7 +47,7 @@ function Hero() {
               href="https://contentful-cms-react-18.netlify.app/"
               target="_black"
               className="mt-6 text-xl text-emerald-700 font-medium capitalize tracking-wide block hover:text-emerald-900 underline">
-              👨🏻‍💻 Solo Projects: ReactJS & JavaScript 🚀
+              👨🏻‍💻 Solo Projects: React.js, Next.js, TypeScript 🚀
             </a>
 
             <a

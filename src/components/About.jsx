@@ -4,7 +4,7 @@ import SectionTitle from './SectionTitle'
 export default function About() {
   return (
     <section
-      className="bg-white py-20 "
+      className="bg-gradient-to-tr  from-emerald-400  to-emerald-50 py-20 "
       id="about">
       <div className="align-element grid gap-16 md:grid-cols-2 items-center">
         <img
@@ -32,7 +32,7 @@ export default function About() {
           </p>
           <p className="mt-4 text-slate-600">
             <span className="text-emerald-800 font-bold">
-              Seeking remote, full-time, long term ReactJS opportunities,
+              Seeking remote, full-time, long term React.js/Next.js Frontend Roles.
             </span>{' '}
             Diligent and dedicated to delivering excellence in every project,
           </p>

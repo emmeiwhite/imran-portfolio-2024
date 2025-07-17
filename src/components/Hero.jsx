@@ -6,7 +6,7 @@ import { FaGithubSquare, FaLinkedin, FaStackOverflow } from 'react-icons/fa'
 
 function Hero() {
   return (
-    <div className="bg-gradient-to-tr from-emerald-50 to-emerald-400 pb-24 md:py-24 font-inter">
+    <div className="bg-gradient-to-tr from-emerald-50 to-emerald-100 pb-24 md:py-24 font-inter">
       <div className="align-element grid md:grid-cols-2 items-center gap-8">
         <article className="order-2 md:order-1">
           <h1 className="text-5xl sm:text-7xl font-bold tracking-wider">

@@ -6,7 +6,7 @@ import { FaWhatsapp, FaEnvelope, FaMapMarkerAlt, FaPhone } from 'react-icons/fa'
 export default function Contact() {
   return (
     <section
-      className="bg-gradient-to-br from-emerald-400  to-emerald-50 py-20 "
+      className="bg-gradient-to-br from-emerald-100  to-emerald-50 py-20 "
       id="contact">
       <div className="align-element grid gap-16 md:grid-cols-2 items-center">
         <img

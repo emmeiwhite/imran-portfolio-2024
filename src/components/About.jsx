@@ -4,7 +4,7 @@ import SectionTitle from './SectionTitle'
 export default function About() {
   return (
     <section
-      className="bg-gradient-to-tr  from-emerald-400  to-emerald-50 py-20 "
+      className="bg-gradient-to-tr  from-emerald-100  to-emerald-50 py-20 "
       id="about">
       <div className="align-element grid gap-16 md:grid-cols-2 items-center">
         <img

@@ -2,7 +2,7 @@ import { links } from '../data'
 
 function Navbar() {
   return (
-    <nav className="bg-gradient-to-tr  from-emerald-400  to-emerald-50">
+    <nav className="bg-gradient-to-tr  from-emerald-100  to-emerald-50">
       <div className="align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
         <h2 className="text-2xl font-pacifico">
           Imran<span className="text-emerald-800 font-bold font-mono">FE</span>

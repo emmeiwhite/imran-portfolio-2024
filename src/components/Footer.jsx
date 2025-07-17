@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <section className="py-20 bg-gradient-to-tr  from-emerald-300  to-emerald-50">
+    <section className="py-20 bg-gradient-to-tr  from-emerald-50  to-emerald-100">
       <div className="align-element">
         <div className="flex gap-3 items-center">
           <p className="text-xl font-pacifico">

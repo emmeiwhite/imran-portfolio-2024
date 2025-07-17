@@ -25,19 +25,22 @@ function Hero() {
           <div className="flex mt-4 gap-x-4">
             <a
               href="https://github.com/emmeiwhite"
-              target="_blank">
+              target="_blank"
+              aria-label="Go to Github">
               <FaGithubSquare className="h-8 w-8 text-emerald-900 hover:text-black duration-300" />
             </a>
 
             <a
               href="https://www.linkedin.com/in/imran-rafiq-rather/"
-              target="_blank">
+              target="_blank"
+              aria-label="Go to Linkedin">
               <FaLinkedin className="h-8 w-8 text-emerald-900 hover:text-black duration-300" />
             </a>
 
             <a
               href="https://stackoverflow.com/users/6938969/imran-rafiq-rather"
-              target="_blank">
+              target="_blank"
+              aria-label="Go to Stackoverflow">
               <FaStackOverflow className="h-8 w-8 text-emerald-900 hover:text-black duration-300" />
             </a>
           </div>

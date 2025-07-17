@@ -23,12 +23,11 @@ export const skills = [
     icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
     skillsInfo: [
       'HTML5 and CSS3',
+      'Accessible Development | a11y',
+      'Responsive Mobile First Web Development',
       'Tailwind CSS',
       'SCSS',
-      'CSS3 Animations',
-      'Bootstrap',
-      'Styled Components & CSS Modules',
-      'Mobile First Web Development'
+      'CSS3 Animations'
     ]
   },
   {
@@ -40,9 +39,8 @@ export const skills = [
       'TypeScript',
       'Axios',
       'Functional Programming',
-      'DS and Algo with JS',
-      'Svelte JS (Familiarity)',
-      'Drupal Theming (Familiarity)'
+      'Zod',
+      'Git/Github'
     ]
   },
   {
@@ -54,9 +52,10 @@ export const skills = [
       'Redux Toolkit',
       'React Query',
       'React-Router 6.4+',
-      'NextJS',
-      'React Testing Library Jest (UpSkilling)',
-      'NodeJS, Express (Familiarity)'
+      'NextJS-15',
+      'React Testing Library | Jest/Vitest',
+      'NodeJS, Express',
+      'MongoDB, Mongoose, Postman Client | UpSkilling'
     ]
   }
 ]

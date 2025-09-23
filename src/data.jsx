@@ -28,9 +28,9 @@ export const skills = [
       'HTML5 and CSS3',
       'Accessible Development | a11y',
       'Responsive Mobile First Web Development',
-      'Tailwind CSS',
       'SCSS',
-      'CSS3 Animations'
+      'Tailwind-4',
+      'ShadCN'
     ]
   },
   {
@@ -43,7 +43,10 @@ export const skills = [
       'Axios',
       'Functional Programming',
       'Zod',
-      'Git/Github'
+      'Git/Github',
+      'Docker',
+      'CI/CD',
+      'JWT'
     ]
   },
   {
@@ -53,12 +56,13 @@ export const skills = [
     skillsInfo: [
       'ReactJS-18+',
       'Redux Toolkit',
-      'React Query',
-      'React-Router 6.4+',
+      'TanStack Query',
+      'React-Router',
       'NextJS-15',
       'React Testing Library | Jest/Vitest',
       'NodeJS, Express',
-      'MongoDB, Mongoose, Postman Client | UpSkilling'
+      'MongoDB, Mongoose, Postman Client',
+      'GeneAI with JavaScript & Working with LLMs: Upskilling'
     ]
   }
 ]

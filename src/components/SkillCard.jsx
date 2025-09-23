@@ -13,7 +13,7 @@ export default function SkillCard({ icon, title, skillsInfo }) {
               key={skill}
               className="flex gap-2 items-center">
               <FaAngleDoubleRight className="text-emerald-300" /> &nbsp;
-              <p className="text-emerald-200"> {skill}</p>
+              <p className="text-emerald-400"> {skill}</p>
             </li>
           )
         })}

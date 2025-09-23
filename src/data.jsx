@@ -62,7 +62,7 @@ export const skills = [
       'React Testing Library | Jest/Vitest',
       'NodeJS, Express',
       'MongoDB, Mongoose, Postman Client',
-      'GeneAI with JavaScript & Working with LLMs: Upskilling'
+      'GeneAI & LLMs: Upskilling'
     ]
   }
 ]

@@ -1,23 +1,57 @@
 import SectionTitle from './SectionTitle'
 import { projects } from '../data'
 import ProjectCard from './ProjectCard'
-
+// ;<div className="min-h-screen w-full bg-[#0f0f0f] relative text-white">
+//   <div
+//     className="absolute inset-0 z-0 pointer-events-none"
+//     style={{
+//       backgroundImage: `
+//         repeating-linear-gradient(30deg,
+//           rgba(255, 100, 0, 0.1) 0,
+//           rgba(255, 100, 0, 0.1) 1px,
+//           transparent 1px,
+//           transparent 10px,
+//           rgba(255, 100, 0, 0.15) 11px,
+//           rgba(255, 100, 0, 0.15) 12px,
+//           transparent 12px,
+//           transparent 40px
+//         )
+//       `
+//     }}
+//   />
+//   {/* Your Content/Components */}
+// </div>
 export default function Projects() {
   return (
-    <section
-      className="py-20 align-element"
-      id="projects"
-    >
-      <SectionTitle text="Career Highlights" />
+    <div
+      style={{
+        backgroundImage: `
+        repeating-linear-gradient(30deg, 
+          rgba(255, 100, 0, 0.1) 0, 
+          rgba(255, 100, 0, 0.1) 1px, 
+          transparent 1px, 
+          transparent 10px,
+          rgba(255, 100, 0, 0.15) 11px, 
+          rgba(255, 100, 0, 0.15) 12px, 
+          transparent 12px, 
+          transparent 40px
+        )
+      `
+      }}>
+      <section
+        className="py-20 align-element"
+        id="projects">
+        <SectionTitle text="Career Highlights" />
 
-      <div className="py-16 project-list">
-        {projects.map(project => (
-          <ProjectCard
-            {...project}
-            key={project.id}
-          />
-        ))}
-      </div>
-    </section>
+        <div className="py-16 project-list">
+          {projects.map(project => (
+            <ProjectCard
+              {...project}
+              key={project.id}
+            />
+          ))}
+        </div>
+      </section>
+    </div>
   )
 }

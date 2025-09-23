@@ -7,8 +7,7 @@ export default function ProjectCard({ img, url, github, title, text, url2, url3,
       <a
         href={url}
         target="_blank"
-        className=" block"
-      >
+        className="block">
         <img
           src={img}
           alt={title}
@@ -28,8 +27,7 @@ export default function ProjectCard({ img, url, github, title, text, url2, url3,
               <a
                 href={url2}
                 target="_blank"
-                title={url2}
-              >
+                title={url2}>
                 <TbWorldWww className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
               </a>
             )}
@@ -38,8 +36,7 @@ export default function ProjectCard({ img, url, github, title, text, url2, url3,
               <a
                 href={url3}
                 target="_blank"
-                title={url3}
-              >
+                title={url3}>
                 <TbWorldWww className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
               </a>
             )}
@@ -48,8 +45,7 @@ export default function ProjectCard({ img, url, github, title, text, url2, url3,
               <a
                 href={url4}
                 target="_blank"
-                title={url4}
-              >
+                title={url4}>
                 <TbWorldWww className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
               </a>
             )}
@@ -57,8 +53,7 @@ export default function ProjectCard({ img, url, github, title, text, url2, url3,
             <a
               href={github}
               target="_blank"
-              title={github}
-            >
+              title={github}>
               <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
           </div>

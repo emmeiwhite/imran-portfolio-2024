@@ -2,21 +2,24 @@ export default function Footer() {
   return (
     <div
       style={{
+        backgroundColor: '#0a0a0a',
         backgroundImage: `
-  repeating-linear-gradient(45deg, rgba(255, 0, 100, 0.2) 0, rgba(255, 0, 100, 0.2) 1px, transparent 1px, transparent 20px),
-      repeating-linear-gradient(-45deg, rgba(0, 255, 200, 0.15) 0, rgba(0, 255, 200, 0.15) 1px, transparent 1px, transparent 20px)
-        `,
-        backgroundSize: '40px 40px'
+       radial-gradient(circle at 25% 25%, #222222 0.5px, transparent 1px),
+       radial-gradient(circle at 75% 75%, #111111 0.5px, transparent 1px)
+     `,
+        backgroundSize: '10px 10px',
+        imageRendering: 'pixelated'
       }}>
       <section className="py-20 ">
         <div className="align-element">
-          <div className="flex gap-3 items-center">
+          <div className="flex gap-3 items-center justify-between">
             <p className="text-xl font-pacifico">
-              Imran <span className="text-emerald-700 font-bold font-mono">FE </span>
+              <span className="text-emerald-200">Imran</span>
+              <span className="text-emerald-600 font-bold font-mono">FE</span>
             </p>
-            <p className="flex gap-3 items-center">
+            <p className="flex gap-3 items-center text-emerald-200 text-sm">
               <span>Copyright &copy; &nbsp;{new Date().getFullYear()}</span>
-              <span className="font-lato text-sm"> All Rights Reserved </span>
+              <span className="font-lato "> All Rights Reserved </span>
             </p>
           </div>
         </div>

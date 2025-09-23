@@ -5,22 +5,18 @@ function Navbar() {
     <nav
       className=""
       style={{
+        backgroundColor: '#0a0a0a',
         backgroundImage: `
-        repeating-linear-gradient(30deg, 
-          rgba(255, 100, 0, 0.1) 0, 
-          rgba(255, 100, 0, 0.1) 1px, 
-          transparent 1px, 
-          transparent 10px,
-          rgba(255, 100, 0, 0.15) 11px, 
-          rgba(255, 100, 0, 0.15) 12px, 
-          transparent 12px, 
-          transparent 40px
-        )
-      `
+       radial-gradient(circle at 25% 25%, #222222 0.5px, transparent 1px),
+       radial-gradient(circle at 75% 75%, #111111 0.5px, transparent 1px)
+     `,
+        backgroundSize: '10px 10px',
+        imageRendering: 'pixelated'
       }}>
       <div className="align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
         <h2 className="text-2xl font-pacifico">
-          Imran<span className="text-emerald-800 font-bold font-mono">FE</span>
+          <span className="text-emerald-200">Imran</span>
+          <span className="text-emerald-600 font-bold font-mono">FE</span>
         </h2>
 
         <div className="flex gap-x-3 mt-5 sm:mt-0 self-end">
@@ -30,7 +26,7 @@ function Navbar() {
               <a
                 href={href}
                 key={id}
-                className="capitalize text-sm sm:text-lg tracking-wide text-gray-600 hover:text-gray-800 hover:underline duration-300"
+                className="capitalize text-sm sm:text-base tracking-wide text-emerald-200 hover:text-emerald-400 hover:underline transition-colors duration-300"
                 target={text.toLowerCase() === 'my resume' && '_blank'}>
                 {text}
               </a>

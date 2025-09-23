@@ -6,18 +6,13 @@ function Skills() {
   return (
     <div
       style={{
+        backgroundColor: '#0a0a0a',
         backgroundImage: `
-        repeating-linear-gradient(30deg, 
-          rgba(255, 100, 0, 0.1) 0, 
-          rgba(255, 100, 0, 0.1) 1px, 
-          transparent 1px, 
-          transparent 10px,
-          rgba(255, 100, 0, 0.15) 11px, 
-          rgba(255, 100, 0, 0.15) 12px, 
-          transparent 12px, 
-          transparent 40px
-        )
-      `
+       radial-gradient(circle at 25% 25%, #222222 0.5px, transparent 1px),
+       radial-gradient(circle at 75% 75%, #111111 0.5px, transparent 1px)
+     `,
+        backgroundSize: '10px 10px',
+        imageRendering: 'pixelated'
       }}>
       <section
         className="align-element py-20"

@@ -7,11 +7,14 @@ export default function Contact() {
   return (
     <div
       style={{
+        background: '#000000',
         backgroundImage: `
-  repeating-linear-gradient(45deg, rgba(255, 0, 100, 0.2) 0, rgba(255, 0, 100, 0.2) 1px, transparent 1px, transparent 20px),
-      repeating-linear-gradient(-45deg, rgba(0, 255, 200, 0.15) 0, rgba(0, 255, 200, 0.15) 1px, transparent 1px, transparent 20px)
-        `,
-        backgroundSize: '40px 40px'
+        linear-gradient(to right, rgba(255,255,255,0.06) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255,255,255,0.06) 1px, transparent 1px),
+        radial-gradient(circle, rgba(255,255,255,0.6) 1px, transparent 1px)
+      `,
+        backgroundSize: '20px 20px, 20px 20px, 20px 20px',
+        backgroundPosition: '0 0, 0 0, 0 0'
       }}>
       <section
         className="py-20 "
@@ -25,38 +28,40 @@ export default function Contact() {
           <article>
             <SectionTitle text="Get in Touch" />
 
-            <p className="mt-4 text-slate-600">
+            <p className="mt-4 ">
               <span className="flex gap-4 items-center">
-                <FaMapMarkerAlt className="h-6 w-6 text-emerald-600 hover:text-black duration-300" />
-                <span>Address: Bangalore, India</span>
+                <FaMapMarkerAlt className="h-6 w-6 text-emerald-300 hover:text-emerald-500 transition-colors duration-300" />
+                <span className="text-emerald-200 bg-emerald-600 px-3 py-1">Bangalore, India</span>
               </span>
             </p>
-            <p className="mt-4 text-slate-600">
+            <p className="mt-4 ">
               <a
                 href="mailto:imranrafiqrather@gmail.com"
                 target="_blank"
                 className="flex gap-4 items-center">
-                <FaEnvelope className="h-6 w-6 text-emerald-600 hover:text-black duration-300" />
-                <span>Email: emmeiwhite@gmail.com</span>
+                <FaEnvelope className="h-6 w-6 text-emerald-300 hover:text-emerald-500 transition-colors duration-300" />
+                <span className="text-emerald-200 bg-emerald-600 px-3 py-1">
+                  emmeiwhite@gmail.com
+                </span>
               </a>
             </p>
 
-            <p className="mt-4 text-slate-600">
+            <p className="mt-4">
               <a
                 href="tel:+919538427852"
                 target="_blank"
                 className="flex gap-4 items-center">
-                <FaPhone className="h-6 w-6 text-emerald-600 hover:text-black duration-300" />
-                <span>Phone: +91 9538427852</span>
+                <FaPhone className="h-6 w-6 text-emerald-300 hover:text-emerald-500 transition-colors duration-300" />
+                <span className="text-emerald-200 bg-emerald-600 px-3 py-1">+91 9538427852</span>
               </a>
             </p>
-            <p className="mt-4 text-slate-600">
+            <p className="mt-4 ">
               <a
                 href="https://api.whatsapp.com/send?phone=917006312148"
                 target="_blank"
                 className="flex gap-4 items-center">
-                <FaWhatsapp className="h-6 w-6 text-emerald-600 hover:text-black duration-300" />
-                <span>WhatsApp:+91 7006312148</span>
+                <FaWhatsapp className="h-6 w-6 text-emerald-300 hover:text-emerald-500 transition-colors duration-300" />
+                <span className="text-emerald-200 bg-emerald-600 px-3 py-1">+91 7006312148</span>
               </a>
             </p>
           </article>

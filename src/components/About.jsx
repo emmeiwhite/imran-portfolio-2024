@@ -5,19 +5,16 @@ export default function About() {
   return (
     <div
       style={{
+        background: '#000000',
         backgroundImage: `
-        repeating-linear-gradient(30deg, 
-          rgba(255, 100, 0, 0.1) 0, 
-          rgba(255, 100, 0, 0.1) 1px, 
-          transparent 1px, 
-          transparent 10px,
-          rgba(255, 100, 0, 0.15) 11px, 
-          rgba(255, 100, 0, 0.15) 12px, 
-          transparent 12px, 
-          transparent 40px
-        )
-      `
-      }}>
+        linear-gradient(to right, rgba(255,255,255,0.06) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255,255,255,0.06) 1px, transparent 1px),
+        radial-gradient(circle, rgba(255,255,255,0.6) 1px, transparent 1px)
+      `,
+        backgroundSize: '20px 20px, 20px 20px, 20px 20px',
+        backgroundPosition: '0 0, 0 0, 0 0'
+      }}
+      className="py-20">
       <section
         className=""
         id="about">
@@ -30,23 +27,23 @@ export default function About() {
           <article>
             <SectionTitle text="My Story" />
 
-            <p className="mt-4 text-slate-600">
+            <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
               With 6+ years of expertise as a Front End Web Developer, I specialize in
-              <span className="text-emerald-900 font-semibold">
+              <span className="text-emerald-300 font-semibold">
                 {' '}
                 ReactJS and JavaScript programming
               </span>
               , crafting dynamic user interfaces with innovative techniques.
             </p>
-            <p className="mt-4">
+            <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
               Proficient in{' '}
-              <span className="text-emerald-800 font-semibold">
+              <span className="text-emerald-300 font-semibold">
                 Tailwind CSS, TypeScript, Redux-toolkit, and React Query
               </span>
               I excel in delivering high-quality solutions.
             </p>
-            <p className="mt-4 text-slate-600">
-              <span className="text-emerald-800 font-bold">
+            <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
+              <span className="text-emerald-300 font-bold">
                 Seeking remote, full-time, long term React.js/Next.js Frontend Roles.
               </span>{' '}
               Diligent and dedicated to delivering excellence in every project,

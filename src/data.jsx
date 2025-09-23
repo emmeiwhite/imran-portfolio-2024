@@ -1,6 +1,7 @@
 import { nanoid } from 'nanoid'
 import { FaHtml5, FaJs, FaReact } from 'react-icons/fa'
 import velocityKashmir from './assets/velocity-kashmir.png'
+import qConstructions from './assets/QConstructions.png'
 import constructAfrica from './assets/construct-africa.png'
 import able from './assets/able.png'
 import axelerant from './assets/axelerant.png'
@@ -61,6 +62,15 @@ export const skills = [
 ]
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: qConstructions,
+    url: '/assets/q-constructions.pdf', // keep a PDF here for now
+    url2: '/assets/q-constructions.pdf', // same for consistency
+    role: 'Software Consultant | Fullstack Developer (Next.js, Node.js, MongoDB)',
+    title: 'Q-Constructions (In Pipeline | Requirement Analysis 09-2025  )',
+    text: 'Collaborating with Q-Constructions, a Bangalore-based civil engineering startup, to design and develop a professional web presence. Currently leading requirement gathering, project scoping, and UX wireframing to translate business goals into a scalable digital solution.'
+  },
   {
     id: nanoid(),
     img: velocityKashmir,

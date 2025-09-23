@@ -9,6 +9,8 @@ import giveIndia from './assets/give-india.png'
 import photon from './assets/photon.png'
 import experis from './assets/experis-it.png'
 
+import qConstructionsPDF from './assets/q-constructions.pdf'
+
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
   { id: nanoid(), href: '#about', text: 'about' },
@@ -65,8 +67,8 @@ export const projects = [
   {
     id: nanoid(),
     img: qConstructions,
-    url: 'q-constructions.pdf', // keep a PDF here for now
-    url2: 'q-constructions.pdf', // same for consistency
+    url: qConstructionsPDF, // keep a PDF here for now
+    url2: qConstructionsPDF, // same for consistency
     role: 'Software Consultant | Fullstack Developer (Next.js, Node.js, MongoDB)',
     title: 'Q-Constructions (In Pipeline | Requirement Analysis 09-2025  )',
     text: 'Collaborating with Q-Constructions, a Bangalore-based civil engineering startup, to design and develop a professional web presence. Currently leading requirement gathering, project scoping, and UX wireframing to translate business goals into a scalable digital solution.'

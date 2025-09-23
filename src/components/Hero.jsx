@@ -1,53 +1,9 @@
 import resume from '../assets/Imran_Resume.pdf'
 
 import heroImg from '../assets/immi-sketch-1.jpeg'
-// import heroImg from '../assets/call-back-hell.jpeg'
 import { FaGithubSquare, FaLinkedin, FaStackOverflow } from 'react-icons/fa'
 
 function Hero() {
-  {
-    /*<div className="min-h-screen w-full bg-[#f5f5dc] relative">
-   Dreamy Sunset Gradient Background 
-  <div
-    className="absolute inset-0 z-0"
-    style={{
-      backgroundImage: `
-        linear-gradient(180deg, 
-          rgba(245,245,220,1) 0%, 
-          rgba(255,223,186,0.8) 25%, 
-          rgba(255,182,193,0.6) 50%, 
-          rgba(147,112,219,0.7) 75%, 
-          rgba(72,61,139,0.9) 100%
-        ),
-        radial-gradient(circle at 30% 20%, rgba(255,255,224,0.4) 0%, transparent 50%),
-        radial-gradient(circle at 70% 80%, rgba(72,61,139,0.6) 0%, transparent 70%),
-        radial-gradient(circle at 50% 60%, rgba(147,112,219,0.3) 0%, transparent 60%)
-      `,
-    }}
-  />
- 
- 
- 
-</div>
-
-<div className="min-h-screen w-full bg-[#0f0f0f] relative text-white">
-
-  <div
-    className="absolute inset-0 z-0 pointer-events-none"
-    style={{
-      backgroundImage: `
-        repeating-linear-gradient(60deg, rgba(255, 0, 100, 0.2) 0, rgba(255, 0, 100, 0.2) 1px, transparent 1px, transparent 22px),
-        repeating-linear-gradient(-60deg, rgba(0, 255, 200, 0.15) 0, rgba(0, 255, 200, 0.15) 1px, transparent 1px, transparent 22px),
-        repeating-linear-gradient(0deg, rgba(255, 0, 100, 0.2) 0, rgba(255, 0, 100, 0.2) 1px, transparent 1px, transparent 22px)
-      `,
-      backgroundSize: "44px 44px",
-    }}
-  />
-
-</div>
-
-*/
-  }
   return (
     <div
       style={{
@@ -106,15 +62,15 @@ function Hero() {
             <a
               href="https://contentful-cms-react-18.netlify.app/"
               target="_black"
-              className="mt-6 text-xl text-emerald-700 font-medium capitalize tracking-wide block hover:text-emerald-900 underline">
-              👨🏻‍💻 Solo Projects: React.js, Next.js, TypeScript 🚀
+              className="mt-6 text-md text-emerald-700 font-medium capitalize tracking-wide block hover:text-emerald-900 underline">
+              👨🏻‍💻 Solo Projects: React.js, Next.js, TypeScript
             </a>
 
             <a
               href={resume}
               target="_black"
-              className="text-xl pt-1 mt-3 underline font-medium text-emerald-700 block hover:text-emerald-900">
-              📝 My Resume 🚀
+              className="text-md pt-1 mt-3 underline font-medium text-emerald-700 block hover:text-emerald-900">
+              📝 My Resume
             </a>
           </div>
         </article>

@@ -1,3 +1,5 @@
+import Logo from './Logo'
+
 export default function Footer() {
   return (
     <div
@@ -13,10 +15,7 @@ export default function Footer() {
       <section className="py-20 ">
         <div className="align-element">
           <div className="flex gap-3 items-center justify-between">
-            <p className="text-xl font-pacifico">
-              <span className="text-emerald-200">Imran</span>
-              <span className="text-emerald-600 font-bold font-mono">FE</span>
-            </p>
+            <Logo />
             <p className="flex gap-3 items-center text-emerald-200 text-sm">
               <span>Copyright &copy; &nbsp;{new Date().getFullYear()}</span>
               <span className="font-lato "> All Rights Reserved </span>

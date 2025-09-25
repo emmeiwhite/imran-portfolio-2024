@@ -1,5 +1,5 @@
 import { links } from '../data'
-
+import Logo from './Logo'
 function Navbar() {
   return (
     <nav
@@ -14,10 +14,8 @@ function Navbar() {
         imageRendering: 'pixelated'
       }}>
       <div className="align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
-        <h2 className="text-2xl font-pacifico">
-          <span className="text-emerald-200">Imran</span>
-          <span className="text-emerald-600 font-bold font-mono">FE</span>
-        </h2>
+        {/* Logo Goes Here */}
+        <Logo />
 
         <div className="flex gap-x-3 mt-5 sm:mt-0 self-end">
           {links.map(link => {

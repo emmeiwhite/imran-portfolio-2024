@@ -41,7 +41,7 @@ export default function Contact() {
                 className="flex gap-4 items-center">
                 <FaEnvelope className="h-6 w-6 text-emerald-300 hover:text-emerald-500 transition-colors duration-300" />
                 <span className="text-emerald-200 bg-emerald-600 px-3 py-1">
-                  emmeiwhite@gmail.com
+                  imranrafiqrather@gmail.com
                 </span>
               </a>
             </p>

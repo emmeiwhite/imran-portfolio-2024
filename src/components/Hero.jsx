@@ -25,7 +25,7 @@ function Hero() {
             </h1>
 
             <p className="mt-4 text-3xl text-emerald-200 capitalize tracking-wide">
-              Frontend Engineer / Architect
+              JavaScript Engineer | MERN Stack
             </p>
 
             <p className="mt-2  capitalize tracking-wide text-emerald-50 bg-emerald-800 px-3 py-2">

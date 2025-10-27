@@ -31,7 +31,7 @@ export default function About() {
               With 6+ years of expertise as a Front End Web Developer, I specialize in
               <span className="text-emerald-300 font-semibold">
                 {' '}
-                ReactJS and JavaScript programming
+                ReactJS and JavaScript programming and I am upskilling to MERN stack
               </span>
               , crafting dynamic user interfaces with innovative techniques.
             </p>
@@ -44,9 +44,9 @@ export default function About() {
             </p>
             <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
               <span className="text-emerald-300 font-bold">
-                Seeking remote, full-time, long term React.js/Next.js Frontend Roles.
+                Seeking full-time, long term React.js/Next.js & JavaScript based MERN Stack Roles.
               </span>{' '}
-              Diligent and dedicated to delivering excellence in every project,
+              I am diligent and dedicated to delivering excellence in every project.
             </p>
           </article>
         </div>

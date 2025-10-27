@@ -38,13 +38,13 @@ export default function About() {
             <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
               Proficient in{' '}
               <span className="text-emerald-300 font-semibold">
-                Tailwind CSS, TypeScript, Redux-toolkit, and React Query
+                Tailwind CSS, TypeScript, Redux-toolkit, and React Query, ExpressJS.
               </span>
               I excel in delivering high-quality solutions.
             </p>
             <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
               <span className="text-emerald-300 font-bold">
-                Seeking full-time, long term React.js/Next.js & JavaScript based MERN Stack Roles.
+                Seeking full-time, long term JavaScript based React.js/MERN Stack Roles.
               </span>{' '}
               I am diligent and dedicated to delivering excellence in every project.
             </p>

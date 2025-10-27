@@ -31,7 +31,7 @@ export default function About() {
               With 6+ years of expertise as a Front End Web Developer, I specialize in
               <span className="text-emerald-300 font-semibold">
                 {' '}
-                ReactJS and JavaScript programming and I am upskilling to MERN stack
+                ReactJS and JavaScript programming with good exposure to MERN stack
               </span>
               , crafting dynamic user interfaces with innovative techniques.
             </p>

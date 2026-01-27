@@ -36,12 +36,12 @@ export default function Contact() {
             </p>
             <p className="mt-4 ">
               <a
-                href="mailto:imranrafiqrather@gmail.com"
+                href="mailto:emmeiwhite@gmail.com"
                 target="_blank"
                 className="flex gap-4 items-center">
                 <FaEnvelope className="h-6 w-6 text-emerald-300 hover:text-emerald-500 transition-colors duration-300" />
                 <span className="text-emerald-200 bg-emerald-600 px-3 py-1">
-                  imranrafiqrather@gmail.com
+                  emmeiwhite@gmail.com
                 </span>
               </a>
             </p>

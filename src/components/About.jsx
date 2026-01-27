@@ -28,25 +28,20 @@ export default function About() {
             <SectionTitle text="My Story" />
 
             <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
-              With 6+ years of expertise as a Front End Web Developer, I specialize in
+              With 5+ years of expertise as a Front End Web Developer, I specialize in
               <span className="text-emerald-300 font-semibold">
                 {' '}
-                ReactJS and JavaScript programming with good exposure to MERN stack
+                Frontend programming - HTML5, CSS3,Modern JS(ES6+), React
               </span>
               , crafting dynamic user interfaces with innovative techniques.
             </p>
             <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
-              Proficient in{' '}
-              <span className="text-emerald-300 font-semibold">
-                Tailwind CSS, TypeScript, Redux-toolkit, and React Query, ExpressJS.
-              </span>
-              I excel in delivering high-quality solutions.
+              I excel in delivering High-Quality Solutions & User Experiences
             </p>
             <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
               <span className="text-emerald-300 font-bold">
-                Seeking full-time, long term JavaScript based React.js/MERN Stack Roles.
+                Currently seeking full-time, long term Frontend roles.
               </span>{' '}
-              I am diligent and dedicated to delivering excellence in every project.
             </p>
           </article>
         </div>

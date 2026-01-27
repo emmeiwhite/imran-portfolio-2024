@@ -29,8 +29,7 @@ export const skills = [
       'Accessible Development | a11y',
       'Responsive Mobile First Web Development',
       'SCSS',
-      'Tailwind-4',
-      'ShadCN'
+      'Tailwind-4'
     ]
   },
   {
@@ -43,10 +42,7 @@ export const skills = [
       'Axios',
       'Functional Programming',
       'Zod',
-      'Git/Github',
-      'Docker',
-      'CI/CD',
-      'JWT'
+      'Git/Github'
     ]
   },
   {
@@ -55,37 +51,35 @@ export const skills = [
     icon: <FaReact className="h-16 w-16 text-emerald-500" />,
     skillsInfo: [
       'ReactJS-18+',
-      'Redux Toolkit',
+      'Context API/useReducer',
+      'Zustand',
       'TanStack Query',
       'React-Router',
-      'NextJS-15',
-      'React Testing Library | Jest/Vitest',
-      'NodeJS, Express',
-      'MongoDB, Mongoose, Postman Client',
-      'GeneAI & LLMs: Upskilling'
+      'Exposure to Backend - Express, auth',
+      'MongoDB, Mongoose, sessions & jwt'
     ]
   }
 ]
 
 export const projects = [
-  {
-    id: nanoid(),
-    img: qConstructions,
-    url: 'https://q-constructions.vercel.app/', // keep a PDF here for now
-    url2: 'https://q-constructions.vercel.app/', // same for consistency
-    role: 'Software Consultant | Fullstack Developer (Next.js, Node.js, MongoDB)',
-    title: 'Q-Constructions (In Pipeline | Requirement Analysis 09-2025  )',
-    text: 'Collaborating with Q-Constructions, a Bangalore-based civil engineering startup, to design and develop a professional web presence. Currently leading requirement gathering, project scoping, and UX wireframing to translate business goals into a scalable digital solution.'
-  },
+  // {
+  //   id: nanoid(),
+  //   img: qConstructions,
+  //   url: 'https://q-constructions.vercel.app/', // keep a PDF here for now
+  //   url2: 'https://q-constructions.vercel.app/', // same for consistency
+  //   role: 'Software Consultant | Fullstack Developer (Next.js, Node.js, MongoDB)',
+  //   title: 'Q-Constructions (In Pipeline | Requirement Analysis 09-2025  )',
+  //   text: 'Collaborating with Q-Constructions, a Bangalore-based civil engineering startup, to design and develop a professional web presence. Currently leading requirement gathering, project scoping, and UX wireframing to translate business goals into a scalable digital solution.'
+  // },
   {
     id: nanoid(),
     img: velocityKashmir,
     url: 'https://velocitykashmir.com/',
     url2: 'https://velocitykashmir.com/',
     github: 'https://github.com/emmeiwhite/velocity-kashmir',
-    role: 'Senior Software Engineer',
-    title: 'Velocity Kashmir Tour & Travels  (04-2024 to Present)',
-    text: 'Led the complete frontend development of Velocity Kashmir Tour & Travels website. Collaborated closely with a junior developer to deliver a seamless user experience.'
+    role: 'Software Engineering | Founding Partner',
+    title: 'Velocity Kashmir Tour & Travels  (04-2023 to Present)',
+    text: 'Built, launched, and owned the complete production website end-to-end, iterating continuously while ensuring reliability and uptime.'
   },
   {
     id: nanoid(),
@@ -95,7 +89,7 @@ export const projects = [
     url3: 'https://mstechlabs.com/',
     github: 'https://github.com/emmeiwhite',
     role: 'Senior Frontend Developer | Drupal ',
-    title: 'MsTechLabs  (07-2023 to 03-2024)',
+    title: 'MsTechLabs | Consultant (07-2023 to 03-2024)',
     text: 'Led front-end development for the Construct Africa project, overseeing responsive layouts, Drupal theming, and intricate JS logic. Additionally, contributed to the Project Pipeline utilizing SCSS for enhanced styling'
   },
   {

@@ -25,7 +25,7 @@ function Hero() {
             </h1>
 
             <p className="mt-4 text-3xl text-emerald-200 capitalize tracking-wide">
-              JavaScript Engineer | MERN Stack
+              Frontend Engineer | HTML5, CSS3, JavaScript (React)
             </p>
 
             <p className="mt-2  capitalize tracking-wide text-emerald-50 bg-emerald-800 px-3 py-2">
@@ -61,7 +61,7 @@ function Hero() {
                 href="https://contentful-cms-react-18.netlify.app/"
                 target="_black"
                 className="mt-6 text-md text-emerald-300 font-medium capitalize tracking-wide block hover:text-emerald-500 transition-colors duration-300 underline">
-                👨🏻‍💻 Solo Projects: React.js, Next.js, TypeScript
+                👨🏻‍💻 Personal Frontend Projects
               </a>
 
               <a

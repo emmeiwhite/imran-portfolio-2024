@@ -20,12 +20,12 @@ function Hero() {
       <div>
         <div className="align-element grid md:grid-cols-2 items-center gap-8">
           <article className="order-2 md:order-1">
-            <h1 className="text-5xl sm:text-7xl font-bold tracking-wider text-emerald-50">
+            <h1 className="text-4xl sm:text-7xl font-bold tracking-wider text-emerald-50">
               I&apos;m <span className="text-emerald-100">Imran</span>
             </h1>
 
-            <p className="mt-4 text-3xl text-emerald-200 capitalize tracking-wide">
-              Frontend Engineer | HTML5, CSS3, JavaScript (React)
+            <p className="mt-4 text-xl sm:text-3xl text-emerald-200 capitalize tracking-wide">
+              FE Engineer | HTML5, CSS3, JavaScript(React)
             </p>
 
             <p className="mt-2  capitalize tracking-wide text-emerald-50 bg-emerald-800 px-3 py-2">

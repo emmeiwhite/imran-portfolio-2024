@@ -14,11 +14,11 @@ export default function Footer() {
       }}>
       <section className="py-20 ">
         <div className="align-element">
-          <div className="flex gap-3 items-center justify-between">
+          <div className="flex gap-3 items-center justify-between flex-wrap">
             <Logo />
             <p className="flex gap-3 items-center text-emerald-200 text-sm">
               <span>Copyright &copy; &nbsp;{new Date().getFullYear()}</span>
-              <span className="font-lato "> All Rights Reserved </span>
+              <span className="font-lato ">All Rights Reserved </span>
             </p>
           </div>
         </div>

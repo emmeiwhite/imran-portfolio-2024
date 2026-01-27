@@ -17,7 +17,7 @@ function Navbar() {
         {/* Logo Goes Here */}
         <Logo />
 
-        <div className="flex gap-x-3 mt-5 sm:mt-0 self-end">
+        <div className="flex flex-wrap gap-x-3 mt-5 sm:mt-0 self-end">
           {links.map(link => {
             const { id, href, text } = link
             return (

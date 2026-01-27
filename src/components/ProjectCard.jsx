@@ -7,11 +7,11 @@ export default function ProjectCard({ img, url, github, title, text, url2, url3,
       <a
         href={url}
         target="_blank"
-        className=" flex h-full flex-col">
+        className=" flex h-full flex-col w-full">
         <img
           src={img}
           alt={title}
-          className="w-full object-cover object-top rounded-t-lg h-[240px]"
+          className="object-cover object-top rounded-t-lg h-auto"
         />
 
         <div className="p-4 flex flex-col h-full">

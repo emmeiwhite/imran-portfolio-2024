@@ -1,4 +1,4 @@
-import resume from '../assets/Imran_Resume.pdf'
+import resume from '../assets/Imran-Resume.pdf'
 
 import heroImg from '../assets/immi-sketch-1.jpeg'
 import { FaGithubSquare, FaLinkedin, FaStackOverflow } from 'react-icons/fa'
@@ -68,7 +68,7 @@ function Hero() {
                 href={resume}
                 target="_black"
                 className="text-md pt-1 mt-3 underline font-medium text-emerald-300 block hover:text-emerald-500 transition-colors duration-300">
-                📝 My Resume
+                📝 Imran Resume
               </a>
             </div>
           </article>

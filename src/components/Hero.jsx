@@ -21,16 +21,16 @@ function Hero() {
         <div className="align-element grid md:grid-cols-2 items-center gap-8">
           <article className="order-2 md:order-1">
             <h1 className="text-4xl sm:text-7xl font-bold tracking-wider text-emerald-50">
-              I&apos;m <span className="text-emerald-100">Imran</span>
+              Hi,I&apos;m <span className="text-emerald-100">Imran</span>
             </h1>
 
             <p className="mt-4 text-xl sm:text-3xl text-emerald-200 capitalize tracking-wide">
-              FE Engineer | HTML5, CSS3, JavaScript(React)
+              Frontend Engineer
             </p>
 
             <p className="mt-2  capitalize tracking-wide text-emerald-50 bg-emerald-800 px-3 py-2">
-              Skilled in shipping organised, maintainable, performant and scalable web application
-              UI
+              4+ years of professional experience building modern, performant user interfaces using
+              React, JavaScript (ES6+), HTML5, and CSS3.
             </p>
 
             <div className="flex mt-4 gap-x-4">
@@ -58,17 +58,16 @@ function Hero() {
 
             <div>
               <a
-                href="https://contentful-cms-react-18.netlify.app/"
-                target="_black"
-                className="mt-6 text-md text-emerald-300 font-medium capitalize tracking-wide block hover:text-emerald-500 transition-colors duration-300 underline">
-                👨🏻‍💻 Personal Frontend Projects
-              </a>
-
-              <a
                 href={resume}
                 target="_black"
                 className="text-md pt-1 mt-3 underline font-medium text-emerald-300 block hover:text-emerald-500 transition-colors duration-300">
                 📝 Imran Resume
+              </a>
+              <a
+                href="https://contentful-cms-react-18.netlify.app/"
+                target="_black"
+                className="mt-6 text-md text-emerald-300 font-medium capitalize tracking-wide block hover:text-emerald-500 transition-colors duration-300 underline">
+                👨🏻‍💻 Personal Frontend Projects
               </a>
             </div>
           </article>

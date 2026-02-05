@@ -78,7 +78,7 @@ export const projects = [
     url2: 'https://velocitykashmir.com/',
     github: 'https://github.com/emmeiwhite/velocity-kashmir',
     role: 'Software Engineering | Founding Partner',
-    title: 'Velocity Kashmir Tour & Travels  (04-2023 to Present)',
+    title: 'Velocity Kashmir Tour & Travels  (04-2023 to Present [part-time 12h/week])',
     text: 'Built, launched, and owned the complete production website end-to-end, iterating continuously while ensuring reliability and uptime.'
   },
   {
@@ -123,27 +123,27 @@ export const projects = [
     role: 'Frontend Developer I',
     title: 'GiveIndia (02-2019 to 02-2020)',
     text: "Optimized GiveIndia's online platform with ReactJS, Redux, and NextJS, enriching user experiences. Led feature development to ensure scalability and performance."
-  },
-  {
-    id: nanoid(),
-    img: photon,
-    url: 'https://www.photon.com/',
-    url2: 'https://www.photon.com/',
-    github: 'https://github.com/emmeiwhite',
-    role: 'Software Engineer',
-    title: 'Photon (08-2018 to 02-2019)',
-    text: 'Engaged in collaborative efforts for the Photon website project, drawing upon ReactJS expertise cultivated and polished during comprehensive training sessions.'
-  },
-
-  {
-    id: nanoid(),
-    img: experis,
-    url: 'https://www.experis.com/en',
-    url2: 'https://www.telecompetitor.com',
-    url3: 'https://www.ibm.com/in-en',
-    github: 'https://github.com/emmeiwhite',
-    role: 'Software Associate',
-    title: 'IBM India [via Experis IT] (2017)',
-    text: 'Employed at IBM India Bangalore, I contributed to a US-based project for Boost Mobile, now Telecompetitor (https://www.telecompetitor.com/), specializing in HTML, CSS, JavaScript, and JQuery'
   }
+  // {
+  //   id: nanoid(),
+  //   img: photon,
+  //   url: 'https://www.photon.com/',
+  //   url2: 'https://www.photon.com/',
+  //   github: 'https://github.com/emmeiwhite',
+  //   role: 'Software Engineer',
+  //   title: 'Photon (08-2018 to 02-2019)',
+  //   text: 'Engaged in collaborative efforts for the Photon website project, drawing upon ReactJS expertise cultivated and polished during comprehensive training sessions.'
+  // }
+
+  // {
+  //   id: nanoid(),
+  //   img: experis,
+  //   url: 'https://www.experis.com/en',
+  //   url2: 'https://www.telecompetitor.com',
+  //   url3: 'https://www.ibm.com/in-en',
+  //   github: 'https://github.com/emmeiwhite',
+  //   role: 'Software Associate',
+  //   title: 'IBM India [via Experis IT] (2017)',
+  //   text: 'Employed at IBM India Bangalore, I contributed to a US-based project for Boost Mobile, now Telecompetitor (https://www.telecompetitor.com/), specializing in HTML, CSS, JavaScript, and JQuery'
+  // }
 ]

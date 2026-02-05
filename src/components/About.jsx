@@ -28,15 +28,17 @@ export default function About() {
             <SectionTitle text="My Story" />
 
             <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
-              With 5+ years of expertise as a Front End Web Developer, I specialize in
+              I’m a Frontend Engineer with over 5 years of experience working on
               <span className="text-emerald-300 font-semibold">
                 {' '}
-                Frontend programming - HTML5, CSS3,Modern JS(ES6+), React
+                real-world web applications using React and modern JavaScript.
               </span>
-              , crafting dynamic user interfaces with innovative techniques.
             </p>
             <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
-              I excel in delivering High-Quality Solutions & User Experiences
+              My journey includes building products for non-profits, startups, and contract clients,
+              and currently leading frontend development for a live platform. I enjoy turning
+              complex requirements into simple, usable interfaces and continuously improving my
+              craft through hands-on work.
             </p>
             <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
               <span className="text-emerald-300 font-bold">

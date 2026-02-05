@@ -28,7 +28,7 @@ export default function About() {
             <SectionTitle text="My Story" />
 
             <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
-              I’m a Frontend Engineer with over 5 years of experience working on
+              I’m a Frontend Engineer with over 4+ years of experience working on
               <span className="text-emerald-300 font-semibold">
                 {' '}
                 real-world web applications using React and modern JavaScript.

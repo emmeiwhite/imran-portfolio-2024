@@ -28,21 +28,20 @@ export default function About() {
             <SectionTitle text="My Story" />
 
             <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
-              I’m a Frontend Engineer with over 4+ years of experience working on
+              I’m a Frontend Engineer with 5+ years of experience building
               <span className="text-emerald-300 font-semibold">
                 {' '}
-                real-world web applications using React and modern JavaScript.
+                production web applications using React and JavaScript.
               </span>
             </p>
             <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
-              My journey includes building products for non-profits, startups, and contract clients,
-              and currently leading frontend development for a live platform. I enjoy turning
-              complex requirements into simple, usable interfaces and continuously improving my
-              craft through hands-on work.
+              Recently, I’ve been expanding into full-stack (MERN) development and learning how to
+              integrate AI into real products. My goal is to work on user-facing AI products where
+              strong UI and intelligent systems meet.
             </p>
             <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
               <span className="text-emerald-300 font-bold">
-                Currently seeking full-time, long term Frontend roles.
+                Currently seeking full-time, long term roles.
               </span>{' '}
             </p>
           </article>

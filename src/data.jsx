@@ -26,6 +26,8 @@ export const skills = [
     icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
     skillsInfo: [
       'HTML5 and CSS3',
+      'Drupal CMS',
+      'WordPress',
       'Accessible Development | a11y',
       'Responsive Mobile First Web Development',
       'SCSS',
@@ -78,8 +80,8 @@ export const projects = [
     url2: 'https://velocitykashmir.com/',
     github: 'https://github.com/emmeiwhite/velocity-kashmir',
     role: 'Software Engineering | Founding Partner',
-    title: 'Velocity Kashmir Tour & Travels  (04-2023 to Present [part-time 12h/week])',
-    text: 'Built, launched, and owned the complete production website end-to-end, iterating continuously while ensuring reliability and uptime.'
+    title: 'Velocity Kashmir Tour & Travels  (04-2023 to Present)',
+    text: 'Built, launched, and owned the complete production website end-to-end, iterating continuously while ensuring reliability and uptime. Handing and managing ongoing updates'
   },
   {
     id: nanoid(),
@@ -90,7 +92,7 @@ export const projects = [
     github: 'https://github.com/emmeiwhite',
     role: 'Senior Frontend Developer | Drupal ',
     title: 'MsTechLabs | Consultant (07-2023 to 03-2024)',
-    text: 'Led front-end development for the Construct Africa project, overseeing responsive layouts, Drupal theming, and intricate JS logic. Additionally, contributed to the Project Pipeline utilizing SCSS for enhanced styling'
+    text: 'Led front-end development for the Construct Africa project, overseeing responsive layouts, Drupal theming (CMS), and intricate JS logic. Additionally, contributed to the Project Pipeline utilizing SCSS for enhanced styling'
   },
   {
     id: nanoid(),
@@ -112,7 +114,7 @@ export const projects = [
     github: 'https://github.com/emmeiwhite',
     role: 'Frontend Developer II | Drupal ',
     title: 'Axelerant  (02-2021 to 08-2022)',
-    text: 'Front-end development for the Franklin Madison project at Axelerant, also contributing as a Drupal Themer for University of East London, OHCHR, and Axelerant projects, integrating interactive JavaScript elements.'
+    text: 'Front-end development for the Franklin Madison project at Axelerant, also contributing as a Drupal Themer (CMS) for University of East London, OHCHR, and Axelerant projects, integrating interactive JavaScript elements.'
   },
   {
     id: nanoid(),

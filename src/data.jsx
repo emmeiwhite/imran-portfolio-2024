@@ -126,16 +126,16 @@ export const projects = [
     title: 'GiveIndia (02-2019 to 02-2020)',
     text: "Optimized GiveIndia's online platform with ReactJS, Redux, and NextJS, enriching user experiences. Led feature development to ensure scalability and performance."
   },
-  // {
-  //   id: nanoid(),
-  //   img: photon,
-  //   url: 'https://www.photon.com/',
-  //   url2: 'https://www.photon.com/',
-  //   github: 'https://github.com/emmeiwhite',
-  //   role: 'Software Engineer',
-  //   title: 'Photon (08-2018 to 02-2019)',
-  //   text: 'Engaged in collaborative efforts for the Photon website project, drawing upon ReactJS expertise cultivated and polished during comprehensive training sessions.'
-  // },
+  {
+    id: nanoid(),
+    img: photon,
+    url: 'https://www.photon.com/',
+    url2: 'https://www.photon.com/',
+    github: 'https://github.com/emmeiwhite',
+    role: 'Software Engineer',
+    title: 'Photon (08-2018 to 02-2019)',
+    text: 'Engaged in collaborative efforts for the Photon website project, drawing upon ReactJS expertise cultivated and polished during comprehensive training sessions.'
+  },
   {
     id: nanoid(),
     img: experis,

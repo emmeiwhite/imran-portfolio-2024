@@ -13,7 +13,7 @@ function Navbar() {
         backgroundSize: '10px 10px',
         imageRendering: 'pixelated'
       }}>
-      <div className="align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
+      <div className="align-element py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8 sm:justify-between">
         {/* Logo Goes Here */}
         <Logo />
 

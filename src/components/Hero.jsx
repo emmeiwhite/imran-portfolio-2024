@@ -25,11 +25,10 @@ function Hero() {
             </h1>
 
             <p className="mt-4 text-xl sm:text-3xl text-emerald-200 capitalize tracking-wide">
-              Frontend Engineer with 5+ years of industry experience, along with ongoing freelance
-              and independent projects
+              Frontend UI Engineer with 5+ years experience
             </p>
 
-            <p className="mt-2  capitalize tracking-wide text-emerald-50 bg-emerald-800 px-3 py-2">
+            <p className="my-8  capitalize tracking-wide text-emerald-50 bg-emerald-800 px-3 py-2">
               I build responsive, high-quality interfaces using HTML, CSS, and JavaScript across CMS
               platforms and React, with strong attention to layout and usability.
             </p>
@@ -57,19 +56,19 @@ function Hero() {
               </a>
             </div>
 
-            <div>
+            <div className="mt-11">
               <a
                 href={resume}
                 target="_black"
-                className="text-md pt-1 mt-3 underline font-medium text-emerald-300 block hover:text-emerald-500 transition-colors duration-300">
-                📝 Imran Resume
+                className="text-md  font-medium text-white-300  bg-emerald-500 hover:text-emerald-500 hover:bg-transparent hover:border hover:border-emerald-500 transition-colors duration-300 py-3 px-6 rounded-sm">
+                Download Resume
               </a>
-              <a
+              {/* <a
                 href="https://contentful-cms-react-18.netlify.app/"
                 target="_black"
                 className="mt-6 text-md text-emerald-300 font-medium capitalize tracking-wide block hover:text-emerald-500 transition-colors duration-300 underline">
                 👨🏻‍💻 Personal Frontend Projects
-              </a>
+              </a> */}
             </div>
           </article>
 

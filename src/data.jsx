@@ -90,7 +90,7 @@ export const projects = [
     url2: 'https://projects.constructafrica.com/',
     url3: 'https://mstechlabs.com/',
     github: 'https://github.com/emmeiwhite',
-    role: 'Senior Frontend Developer | Drupal ',
+    role: 'Senior Frontend Developer | Drupal (CMS) ',
     title: 'MsTechLabs | Consultant (07-2023 to 03-2024)',
     text: 'Led front-end development for the Construct Africa project, overseeing responsive layouts, Drupal theming (CMS), and intricate JS logic. Additionally, contributed to the Project Pipeline utilizing SCSS for enhanced styling'
   },
@@ -112,7 +112,7 @@ export const projects = [
     url3: 'https://www.ohchr.org/en/ohchr_homepage',
     url4: 'https://franklin-madison.com/',
     github: 'https://github.com/emmeiwhite',
-    role: 'Frontend Developer II | Drupal ',
+    role: 'Frontend Developer II | Drupal (CMS)',
     title: 'Axelerant  (02-2021 to 08-2022)',
     text: 'Front-end development for the Franklin Madison project at Axelerant, also contributing as a Drupal Themer (CMS) for University of East London, OHCHR, and Axelerant projects, integrating interactive JavaScript elements.'
   },

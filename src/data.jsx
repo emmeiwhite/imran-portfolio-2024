@@ -1,15 +1,13 @@
 import { nanoid } from 'nanoid'
 import { FaHtml5, FaJs, FaReact } from 'react-icons/fa'
 import velocityKashmir from './assets/velocity-kashmir.png'
-import qConstructions from './assets/QConstructions.png'
+import outlier from './assets/outlier.png'
 import constructAfrica from './assets/construct-africa.png'
 import able from './assets/able.png'
 import axelerant from './assets/axelerant.png'
 import giveIndia from './assets/give-india.png'
 import photon from './assets/photon.png'
 import experis from './assets/experis-it.png'
-
-import qConstructionsPDF from './assets/q-constructions.pdf'
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -64,24 +62,24 @@ export const skills = [
 ]
 
 export const projects = [
-  // {
-  //   id: nanoid(),
-  //   img: qConstructions,
-  //   url: 'https://q-constructions.vercel.app/', // keep a PDF here for now
-  //   url2: 'https://q-constructions.vercel.app/', // same for consistency
-  //   role: 'Software Consultant | Fullstack Developer (Next.js, Node.js, MongoDB)',
-  //   title: 'Q-Constructions (In Pipeline | Requirement Analysis 09-2025  )',
-  //   text: 'Collaborating with Q-Constructions, a Bangalore-based civil engineering startup, to design and develop a professional web presence. Currently leading requirement gathering, project scoping, and UX wireframing to translate business goals into a scalable digital solution.'
-  // },
+  {
+    id: nanoid(),
+    img: outlier,
+    url: 'https://outlier.ai/',
+    url2: 'https://outlier.ai/',
+    role: 'AI Data Contributor (RLHF / LLM Evaluation)',
+    title: 'Outlier AI (Scale AI) | Dec 2024 – Apr 2026',
+    text: 'Evaluated and improved AI-generated responses using RLHF & SFT. Assessed outputs for accuracy, clarity, completeness, and instruction-following, and provided structured feedback to enhance model performance.'
+  },
   {
     id: nanoid(),
     img: velocityKashmir,
     url: 'https://velocitykashmir.com/',
     url2: 'https://velocitykashmir.com/',
     github: 'https://github.com/emmeiwhite/velocity-kashmir',
-    role: 'Software Engineering | Founding Partner',
-    title: 'Velocity Kashmir Tour & Travels  (04-2023 to Present)',
-    text: 'Built, launched, and owned the complete production website end-to-end, iterating continuously while ensuring reliability and uptime. Handing and managing ongoing updates'
+    role: 'Founding Partner | Venture & Side Project',
+    title: 'Velocity Kashmir Tour & Travels (Apr 2024 – Present)',
+    text: 'Built and launched the production website end-to-end, handling development, deployment, and continuous updates while ensuring performance, reliability, and SEO best practices.'
   },
   {
     id: nanoid(),
@@ -139,9 +137,9 @@ export const projects = [
   {
     id: nanoid(),
     img: experis,
-    url: 'https://www.experis.com/en',
+    url: 'https://www.ibm.com/in-en',
     url2: 'https://www.telecompetitor.com',
-    url3: 'https://www.ibm.com/in-en',
+    url3: 'https://www.experis.com/en',
     github: 'https://github.com/emmeiwhite',
     role: 'Software Associate',
     title: 'IBM India [via Experis IT] (2017)',

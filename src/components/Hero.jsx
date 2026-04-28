@@ -25,12 +25,20 @@ function Hero() {
             </h1>
 
             <p className="mt-4 text-xl sm:text-3xl text-emerald-200 capitalize tracking-wide">
-              Frontend UI Engineer with 5+ years experience
+              Hi, I'm Imran — Frontend Consultant & UI Engineer
             </p>
 
-            <p className="my-8  capitalize tracking-wide text-emerald-50 bg-emerald-800 px-3 py-2">
-              I build responsive, high-quality interfaces using HTML, CSS, and JavaScript across CMS
-              platforms and React, with strong attention to layout and usability.
+            {/* <p className="my-8 tracking-wide text-emerald-50 bg-emerald-800 px-3 py-2">
+              I specialise in CSS architecture and CMS theming, with 5+ years building responsive,
+              high-quality interfaces across HTML, CSS, JavaScript, React, and Svelte.
+            </p> */}
+
+            <p className="my-8 tracking-wide text-emerald-50 bg-emerald-800 px-3 py-2">
+              Frontend Consultant and UI Engineer with a 5-year professional track across corporate
+              and consulting roles — plus freelance, AI, and independent venture work on top. I
+              specialise in CSS architecture, CMS theming, and modern React development, with a
+              particular strength in working on existing systems: improving layouts, refining mobile
+              experiences, and implementing designs with precision.
             </p>
 
             <div className="flex mt-4 gap-x-4">

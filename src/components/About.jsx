@@ -49,32 +49,35 @@ export default function About() {
             <SectionTitle text="My Story" />
 
             <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
-              I’m a Frontend Engineer with 5+ years of industry experience, along with ongoing
-              freelance and independent projects. I specialize in
-              <span className="text-emerald-300 font-semibold"> HTML, CSS, and JavaScript</span>,
-              building clean, responsive, and production-ready user interfaces.
+              I'm a Frontend Consultant and UI Engineer with a 5-year professional track spanning
+              corporate engineering roles and hands-on Drupal consulting — complemented by freelance
+              projects, AI model training, and independent ventures. I work equally across CMS
+              theming and modern React and Express development,
+              <span className="text-emerald-300 font-semibold">
+                {' '}
+                bringing the same eye for precision, spacing, and clean implementation to both.
+              </span>
             </p>
 
             <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
-              My experience includes working across CMS platforms like Drupal, along with actively
-              working and learning within WordPress, as well as React-based applications, with a
-              strong focus on
+              Years of Drupal theming taught me to override cleanly, preserve structure, and elevate
+              — not replace.
               <span className="text-emerald-300 font-semibold">
                 {' '}
-                layout precision, spacing, typography, and consistency
+                That mindset shapes everything I build in WordPress and React.
               </span>
               .
             </p>
 
             <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
-              Recently, I’ve been expanding into full-stack (MERN) development and exploring
-              AI-driven products, aiming to build interfaces where strong UI and intelligent systems
-              meet.
+              I'm also actively exploring full-stack (MERN) development and AI-driven product
+              interfaces, where strong UI and intelligent systems meet.
             </p>
 
             <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
               <span className="text-emerald-300 font-bold">
-                Currently open to full-time, consulting, and long-term opportunities.
+                Currently open to full-time, consulting, and long-term opportunities — especially
+                where precision, trust, and a calm user experience matter.
               </span>
             </p>
           </article>

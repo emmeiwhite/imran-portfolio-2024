@@ -45,7 +45,7 @@ export default function About() {
               </span>{' '}
             </p>
           </article> */}
-          <article>
+          {/* <article>
             <SectionTitle text="My Story" />
 
             <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
@@ -78,6 +78,43 @@ export default function About() {
               <span className="text-emerald-300 font-bold">
                 Currently open to full-time, consulting, and long-term opportunities — especially
                 where precision, trust, and a calm user experience matter.
+              </span>
+            </p>
+          </article> */}
+
+          <article>
+            <SectionTitle text="My Story" />
+
+            <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
+              I’m a Frontend Engineer and AI Evaluation Contributor with 7+ years of experience
+              across corporate engineering roles, frontend consulting, freelance projects, and
+              independent product work. My background spans React development, CMS-driven platforms,
+              responsive UI engineering, and improving existing systems with a strong focus on
+              precision and usability.
+            </p>
+
+            <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
+              Alongside frontend development, I actively contribute to AI training and evaluation
+              workflows involving multimodal annotation, video and audio review, OCR/LaTeX tasks,
+              response evaluation, and guideline-based quality assessment for LLM systems.
+              <span className="text-emerald-300 font-semibold">
+                {' '}
+                This work has strengthened my analytical thinking, consistency, and attention to
+                detail across evolving AI evaluation environments.
+              </span>
+            </p>
+
+            <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
+              My frontend experience — especially in CMS theming and React development — taught me
+              how to work carefully within existing systems, preserve structure, and improve user
+              experiences without unnecessary complexity.
+            </p>
+
+            <p className="mt-4 text-emerald-200 bg-emerald-800 px-3 py-1">
+              <span className="text-emerald-300 font-bold">
+                Currently open to full-time, remote, consulting, and long-term opportunities
+                involving AI evaluation, multimodal workflows, frontend engineering, and AI-assisted
+                products.
               </span>
             </p>
           </article>

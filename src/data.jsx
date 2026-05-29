@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid'
-import { FaHtml5, FaJs, FaReact } from 'react-icons/fa'
+import { FaHtml5, FaJs, FaReact, FaBrain } from 'react-icons/fa'
 import velocityKashmir from './assets/velocity-kashmir.png'
 import outlier from './assets/outlier.png'
 import constructAfrica from './assets/construct-africa.png'
@@ -17,6 +17,7 @@ export const links = [
   { id: nanoid(), href: '#contact', text: 'contact' }
 ]
 
+/*
 export const skills = [
   {
     id: nanoid(),
@@ -60,6 +61,52 @@ export const skills = [
     ]
   }
 ]
+  */
+
+export const skills = [
+  {
+    id: nanoid(),
+    title: 'AI Evaluation & Annotation',
+    icon: <FaBrain className="h-16 w-16 text-emerald-500" />,
+    skillsInfo: [
+      'RLHF & SFT Workflows',
+      'LLM Response Evaluation',
+      'Video & Audio Annotation',
+      'Multimodal AI Review',
+      'OCR & LaTeX Tasks',
+      'Prompt Engineering',
+      'Quality Review & Analysis'
+    ]
+  },
+
+  {
+    id: nanoid(),
+    title: 'Frontend Development',
+    icon: <FaReact className="h-16 w-16 text-emerald-500" />,
+    skillsInfo: [
+      'ReactJS & Modern JavaScript',
+      'HTML5, CSS3 & Tailwind',
+      'Responsive UI Development',
+      'TypeScript',
+      'REST API Integration',
+      'Git & GitHub'
+    ]
+  },
+
+  {
+    id: nanoid(),
+    title: 'CMS & Web Platforms',
+    icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
+    skillsInfo: [
+      'Drupal CMS',
+      'WordPress',
+      'SCSS',
+      'Accessibility (a11y)',
+      'Mobile-First Development',
+      'Cross-Browser Compatibility'
+    ]
+  }
+]
 
 export const projects = [
   {
@@ -68,7 +115,7 @@ export const projects = [
     url: 'https://outlier.ai/',
     url2: 'https://outlier.ai/',
     role: 'AI Data Contributor (RLHF / LLM Evaluation)',
-    title: 'Outlier AI (Scale AI) | Dec 2024 – Apr 2026',
+    title: 'Outlier AI (Scale AI) | Dec 2024 – Present',
     text: 'Evaluated and improved AI-generated responses using RLHF & SFT. Assessed outputs for accuracy, clarity, completeness, and instruction-following, and provided structured feedback to enhance model performance.'
   },
   {
